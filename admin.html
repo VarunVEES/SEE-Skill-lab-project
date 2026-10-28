@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Panel - StudentKart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="logo-section">
+
+            <img src="logo.jpeg" class="logo">
+
+            <h1>StudentKart Admin</h1>
+
+        </div>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="products.html">Products</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+         ADMIN SECTION
+    ========================== -->
+
+    <section class="admin-section">
+
+        <h2>Add Product</h2>
+
+        <div class="admin-form">
+
+            <input 
+                type="text"
+                id="name"
+                placeholder="Product Name"
+            >
+
+            <input 
+                type="number"
+                id="price"
+                placeholder="Product Price"
+            >
+
+            <input 
+                type="text"
+                id="image"
+                placeholder="Image URL"
+            >
+
+            <textarea
+                id="description"
+                placeholder="Product Description"
+            ></textarea>
+
+            <button onclick="addProduct()">
+                Add Product
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="admin.js"></script>
+
+</body>
+</html>

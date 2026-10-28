@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Add Product - StudentKart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="logo-section">
+
+            <img
+            src="logo.jpeg"
+            class="logo">
+
+            <h1>Add Product</h1>
+
+        </div>
+
+
+
+        <nav>
+
+            <a href="admin-dashboard.html">
+
+                Dashboard
+
+            </a>
+
+            <a href="view-orders.html">
+
+                View Orders
+
+            </a>
+
+            <a href="view-customers.html">
+
+                View Customers
+
+            </a>
+
+            <a href="index.html">
+
+                Logout
+
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+         ADD PRODUCT SECTION
+    ========================== -->
+
+    <section class="add-product-section">
+
+        <div class="add-product-box">
+
+            <h2>
+                Add New Product
+            </h2>
+
+
+
+            <input
+            type="text"
+            id="name"
+            placeholder="Enter Product Name">
+
+
+
+            <input
+            type="number"
+            id="price"
+            placeholder="Enter Product Price">
+
+
+
+            <input
+            type="text"
+            id="image"
+            placeholder="Enter Product Image Path">
+
+
+
+            <textarea
+            id="description"
+            placeholder="Enter Product Description">
+
+            </textarea>
+
+
+
+            <button onclick="addProduct()">
+
+                Add Product
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="admin.js"></script>
+
+</body>
+</html>
