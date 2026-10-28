@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Place Order - StudentKart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="logo-section">
+
+            <img
+            src="logo.jpeg"
+            class="logo">
+
+            <h1>StudentKart</h1>
+
+        </div>
+
+
+
+        <nav>
+
+            <a href="dashboard.html">
+
+                Dashboard
+
+            </a>
+
+            <a href="cart.html">
+
+                Cart
+
+            </a>
+
+            <a href="my-orders.html">
+
+                My Orders
+
+            </a>
+
+            <a href="index.html">
+
+                Logout
+
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+         ORDER FORM
+    ========================== -->
+
+    <section class="order-section">
+
+        <div class="order-box">
+
+            <h2>
+                Place Your Order
+            </h2>
+
+
+
+            <input
+            type="text"
+            id="customerName"
+            placeholder="Enter Full Name">
+
+
+
+            <input
+            type="text"
+            id="address"
+            placeholder="Enter Delivery Address">
+
+
+
+            <input
+            type="text"
+            id="phone"
+            placeholder="Enter Phone Number">
+
+
+
+            <div class="payment-box">
+
+                <h3>
+                    Payment Method
+                </h3>
+
+                <p>
+                    Cash On Delivery
+                </p>
+
+            </div>
+
+
+
+            <button onclick="placeOrder()">
+
+                Place Order
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
